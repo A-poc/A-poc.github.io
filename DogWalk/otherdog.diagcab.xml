@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageConfiguration xmlns="http://www.microsoft.com/schemas/dcm/configuration/2008">
+<Execution>
+<Package Path="%windir%\diagnostics\system\Audio">
+<Answers Version="1.0">
+<Interaction ID="IT_GetDeviceType">
+<Value>microphone/headset microphone</Value>
+</Interaction>
+</Answers>
+</Package>
+<Name>@%windir%\diagnostics\system\Audio\DiagPackage.dll,-33</Name>
+<Description>@%windir%\diagnostics\system\Audio\DiagPackage.dll,-31</Description>
+<Icon>@%windir%\diagnostics\system\Audio\DiagPackage.dll,-1003</Icon>
+</Execution>
+<Index>
+<Id>AudioRecordingDiagnostic</Id>
+<RequiresAdminPrivileges>true</RequiresAdminPrivileges>
+<PrivacyUrl>http://go.microsoft.com/fwlink/?LinkId=190175</PrivacyUrl>
+<Version>1.0</Version>
+<PublisherName>Microsoft Corporation</PublisherName>
+<Category>@%windir%\system32\DiagCpl.dll,-401</Category>
+<Keyword>@%windir%\system32\DiagCpl.dll,-24</Keyword>
+</Index>
+</PackageConfiguration>
