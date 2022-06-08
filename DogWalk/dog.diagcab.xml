@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageConfiguration xmlns="http://www.microsoft.com/schemas/dcm/configuration/2008">
   <Execution>
-    <Package Path="\\webdav.xela.ooo@ssl\" />
+    <Package Path="\\webdav-test.herokuapp.com@ssl\DavWWWRoot\package" />
     <Name>Some name</Name>
     <Description>Some description</Description>
     <Icon>@%windir%\diagnostics\system\WindowsUpdate\DiagPackage.dll,-1001</Icon>
